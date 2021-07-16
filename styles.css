@@ -264,7 +264,17 @@ body {
 }
 
 .technologies {
-  margin-top: 30px;
+  margin-top: 15px;
+}
+
+.cv {
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.cv:hover {
+  text-decoration: underline;
 }
 
 .icons {
@@ -290,7 +300,7 @@ body {
 .portfolio {
   width: 80%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .image-laptop {
@@ -310,13 +320,15 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 
 .flex-images {
   display: flex;
   width: 50%;
-  margin-bottom: 50px;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-top: 25px;
 }
 .flex-text h3,
 p,
@@ -325,19 +337,24 @@ a {
 }
 .portfolio-title {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .flex-text {
   width: 50%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #333;
+  height: 1px;
 }
 
 @media only screen and (max-width: 1100px) {
-  .portfolio-examples {
-    flex-direction: column;
-    text-align: center;
-  }
   .flex-images {
     margin-bottom: 25px;
     width: 100%;
