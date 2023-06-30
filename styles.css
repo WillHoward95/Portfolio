@@ -281,6 +281,10 @@ body {
   margin: 10px;
 }
 
+.react-icon {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 1300px) {
   .portrait {
     width: 300px;
