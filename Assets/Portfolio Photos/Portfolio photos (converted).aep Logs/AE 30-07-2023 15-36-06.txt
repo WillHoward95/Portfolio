@@ -1,0 +1,12 @@
+Adobe After Effects v23.5 Windows 64 render log for project “Portfolio photos (converted).aep”
+
+Rendering started on 30/07/2023 at 15:36:06
+
+  30/07/2023 15:36:06: Starting composition “Simpsons - Laptop”.
+
+  Output To: C:\Users\willh\Documents\Coding\Portfolio_Website\Assets\Portfolio Photos\Simpsons API\Simpsons - Laptop\Simpsons - Laptop_[#####].png      Render stopped by user.    30/07/2023 15:36:13: Finished composition “Simpsons - Laptop”.
+
+
+  Total Time Elapsed: 6 Seconds
+Log closed on 30/07/2023 at 15:36:13
+
