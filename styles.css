@@ -194,7 +194,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .toggle-button {
     display: flex;
   }
@@ -231,7 +231,13 @@ body {
     background-color: white;
     left: 0%;
   }
-}
+  .contactLinks {
+    flex-direction: column;
+  }
+  .cv {
+    padding: 0;
+  }
+} */
 
 /* About Me */
 
@@ -261,6 +267,7 @@ body {
 
 .flex-right {
   margin-left: 60px;
+  width: 600px;
 }
 
 .technologies {
@@ -271,10 +278,17 @@ body {
   margin-top: 15px;
   color: white;
   text-decoration: none;
+  margin: 10px;
+  font-size: 1.2em;
+  width: 150px;
 }
 
 .cv:hover {
   text-decoration: underline;
+}
+
+.contactLinks {
+  display: flex;
 }
 
 .icons {
@@ -290,13 +304,56 @@ body {
     width: 300px;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .portrait {
     display: none;
   }
   .flex-right {
     text-align: center;
     margin-left: 0;
+  }
+  .contactLinks {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav-links {
+    display: flex;
+    position: absolute;
+    right: 100%;
+    transition: 0.4s;
+    top: 100px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav-links a:hover {
+    background-color: #ccc;
+    text-decoration: none;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links a {
+    margin: 0.5rem;
+    padding: 0;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+    background-color: white;
+    left: 0%;
+  }
+  .cv {
+    padding: 0;
   }
 }
 
