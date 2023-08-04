@@ -280,7 +280,11 @@ body {
   text-decoration: none;
   margin: 10px;
   font-size: 1.2em;
-  width: 150px;
+  /* width: 150px; */
+  display: flex;
+  height: 50px;
+  min-width: 50px;
+  white-space: nowrap;
 }
 
 .cv:hover {

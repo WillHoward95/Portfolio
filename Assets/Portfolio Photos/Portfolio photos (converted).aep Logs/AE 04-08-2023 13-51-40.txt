@@ -1,0 +1,17 @@
+Adobe After Effects v23.5 Windows 64 render log for project “Portfolio photos (converted).aep”
+
+Rendering started on 04/08/2023 at 13:51:40
+
+  04/08/2023 13:51:40: Starting composition “laptop”.
+
+  Output To: C:\Users\willh\Documents\Coding\Portfolio_Website\Assets\Portfolio Photos\ExpensesTracker\laptop\laptop_[#####].png    04/08/2023 13:51:40: Finished composition “laptop”.
+
+
+  04/08/2023 13:51:40: Starting composition “phone”.
+
+  Output To: C:\Users\willh\Documents\Coding\Portfolio_Website\Assets\Portfolio Photos\ExpensesTracker\phone\phone_[#####].png    04/08/2023 13:51:40: Finished composition “phone”.
+
+
+  Total Time Elapsed: 0 Seconds
+Log closed on 04/08/2023 at 13:51:40
+
