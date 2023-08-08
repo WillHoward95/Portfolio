@@ -493,7 +493,8 @@ hr {
     font-size: 1.5em;
   }
   .contact-email,
-  .contact-mobile {
+  .contact-mobile,
+  .contact-location {
     font-size: 1em;
   }
   .contact-container {
