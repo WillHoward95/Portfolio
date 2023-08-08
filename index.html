@@ -45,9 +45,9 @@
           <span class="bar"></span>
         </a>
         <div class="nav-links" id="nav-links">
-          <!-- <a href="#aboutme">About Me</a> -->
+          <!-- <a href="#contact">Contact</a> -->
           <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
+
         </div>
       </div>
     </nav>
@@ -61,6 +61,11 @@
               alt="portrait of me"
               class="portrait"
             />
+            <div class="contact-container contact-left">
+              <h3 class="contact-email">willhowardfreelance@gmail.com</h3>
+              <h3 class="contact-mobile">+44 7887 295460</h3>
+              <h3 class="contact-location">Birmingham, UK</h3>
+            </div>
           </div>
 
           <div class="flex-right">
@@ -72,11 +77,12 @@
             <aside class="technologies">
               <h2 class="subtitle">Technologies</h2>
               <i class="react-icon icons fa-brands fa-react fa-2xl"></i>
-              <i class="icons fa-2x fab fa-html5"></i>
-              <i class="icons fa-2x fab fa-css3-alt"></i>
+              <!-- <i class="icons fa-2x fab fa-html5"></i> -->
+              <!-- <i class="icons fa-2x fab fa-css3-alt"></i> -->
+              <img src="./Assets/WH Logos/ts-logo-512.svg" alt="" class="ts-logo icons">
               <i class="icons fa-2x fab fa-js-square"></i>
               <i class="icons fa-2x fab fa-git-square"></i>
-              <i class="icons fa-2x fab fa-github-square"></i>
+              <!-- <i class="icons fa-2x fab fa-github-square"></i> -->
             </aside>
             <div class="contactLinks">
               <a
@@ -94,7 +100,13 @@
                 ><h3>LinkedIn</h3></a
               >
             </div>
+            <div class="contact-container contact-right">
+              <h3 class="contact-email">willhowardfreelance@gmail.com</h3>
+              <h3 class="contact-mobile">+44 7887 295460</h3>
+              <h3 class="contact-location">Birmingham, UK</h3>
+            </div>
           </div>
+
         </div>
       </section>
 
@@ -104,16 +116,19 @@
         <hr />
         <div class="portfolio-examples">
           <div class="flex-images">
-            <img
-              src="./Assets/Portfolio Photos/ExpensesTracker/Expenses - Laptop_comp.png"
-              alt=""
-              class="image-laptop"
-            />
-            <img
-              src="./Assets/Portfolio Photos/ExpensesTracker/Expenses - Phone_comp.png"
-              alt=""
-              class="image-phone"
-            />
+            <a
+              href="https://64ccf5a17fce350c93f0a313--cute-halva-d176be.netlify.app"
+              target="blank"
+            >
+              <img
+                src="./Assets/Portfolio Photos/ExpensesTracker/Expenses - Laptop_comp.png"
+                alt=""
+                class="image-laptop" />
+              <img
+                src="./Assets/Portfolio Photos/ExpensesTracker/Expenses - Phone_comp.png"
+                alt=""
+                class="image-phone"
+            /></a>
           </div>
           <div class="flex-text">
             <h3>Expenses Tracker - Typescript, React.js & Redux</h3>
@@ -133,16 +148,16 @@
           <hr />
 
           <div class="flex-images">
-            <img
-              src="./Assets/Portfolio Photos/Trello/Trello - Laptop_comp.png"
-              alt=""
-              class="image-laptop"
-            />
-            <img
-              src="./Assets/Portfolio Photos/Trello/Trello - Phone_comp.png"
-              alt=""
-              class="image-phone"
-            />
+            <a href="https://timely-palmier-49307f.netlify.app/" target="blank"
+              ><img
+                src="./Assets/Portfolio Photos/Trello/Trello - Laptop_comp.png"
+                alt=""
+                class="image-laptop" />
+              <img
+                src="./Assets/Portfolio Photos/Trello/Trello - Phone_comp.png"
+                alt=""
+                class="image-phone"
+            /></a>
           </div>
           <div class="flex-text">
             <h3>Trello Clone - React.js & Redux Toolkit</h3>
@@ -160,7 +175,8 @@
           <hr />
 
           <div class="flex-images">
-            <img
+            <a href="https://keen-jelly-513d47.netlify.app/" target="blank">
+              <img
               src="./Assets/Portfolio Photos/Simpsons API/Simpsons - Laptop_comp.png"
               alt=""
               class="image-laptop"
@@ -171,6 +187,8 @@
               class="image-phone"
             />
           </div>
+            </a>
+
           <div class="flex-text">
             <h3>Simpsons API - React.js & Redux Toolkit</h3>
             <a
@@ -186,7 +204,7 @@
           <hr />
 
           <div class="flex-images">
-            <img
+            <a href="https://willhoward95.github.io/TranslateAPI/" target="blank"><img
               src="./Assets/Portfolio Photos/Translator/Translator - Laptop_comp.png"
               alt=""
               class="image-laptop"
@@ -195,7 +213,7 @@
               src="./Assets/Portfolio Photos/Translator/Translator - Phone_comp.png"
               alt=""
               class="image-phone"
-            />
+            /></a>
           </div>
           <div class="flex-text">
             <h3>Google Translate API - Javascript</h3>
@@ -214,7 +232,7 @@
           <hr />
 
           <div class="flex-images">
-            <img
+            <a href="https://willhoward95.github.io/Noughts-Crosses/" target="blank"><img
               src="./Assets/Portfolio Photos/Nought and Crosses/Noughts and Crosses Laptop Comp.png"
               alt=""
               class="image-laptop"
@@ -223,7 +241,8 @@
               src="./Assets/Portfolio Photos/Nought and Crosses/Noughts and Crosses Phone Comp.png"
               alt=""
               class="image-phone"
-            />
+            /></a>
+            
           </div>
           <div class="flex-text">
             <h3>Noughts & Crosses Game - Javascript</h3>
@@ -293,13 +312,13 @@
       </section>
 
       <!-- Contact -->
-      <section class="contact" id="contact">
+      <!-- <section class="contact" id="contact">
         <div class="contact-container">
           <h1 class="contact-title">Contact</h1>
           <h3 class="contact-email">Email: willhowardfreelance@gmail.com</h3>
           <h3 class="contact-mobile">Mobile: +44 7887 295460</h3>
         </div>
-      </section>
+      </section> -->
     </main>
   </body>
 </html>
