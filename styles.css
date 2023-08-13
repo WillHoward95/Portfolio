@@ -22,7 +22,7 @@ h2 {
   font-size: 2.5rem;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 body {
@@ -197,51 +197,6 @@ body {
   }
 }
 
-/* @media only screen and (max-width: 900px) {
-  .toggle-button {
-    display: flex;
-  }
-
-  .nav-links {
-    display: flex;
-    position: absolute;
-    right: 100%;
-    transition: 0.4s;
-    top: 100px;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
-  .nav-links a:hover {
-    background-color: #ccc;
-    text-decoration: none;
-  }
-
-  .nav-bar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-links a {
-    margin: 0.5rem;
-    padding: 0;
-    width: 100%;
-  }
-
-  .nav-links.active {
-    display: flex;
-    background-color: white;
-    left: 0%;
-  }
-  .contactLinks {
-    flex-direction: column;
-  }
-  .cv {
-    padding: 0;
-  }
-} */
-
 /* About Me */
 
 .aboutme {
@@ -281,24 +236,15 @@ body {
   height: 450px;
 }
 
-.ts-logo {
-  width: 40px;
-  /* margin-bottom: 8px; */
-}
-
 .fa-2x {
   font-size: 2.2em;
-}
-
-.technologies {
-  margin-top: 15px;
 }
 
 .cv {
   margin-top: 15px;
   color: white;
   text-decoration: none;
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
   font-size: 1.2em;
   /* width: 150px; */
   display: flex;
@@ -315,12 +261,31 @@ body {
   display: flex;
 }
 
-.icons {
-  margin: 10px;
+.technologies {
+  width: 80%;
+  margin: 50px auto;
 }
 
-.react-icon {
-  margin-bottom: 20px;
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons {
+  height: 75px;
+  align-self: center;
+}
+
+.tech-title {
+  margin-bottom: 50px;
+}
+
+.iconWithText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 50px;
 }
 
 .contact-container {
@@ -330,12 +295,11 @@ body {
 }
 
 .contact-email,
-.contact-mobile {
-  text-align: right;
-}
-
-.contact-right {
-  display: none;
+.contact-mobile,
+.contact-location,
+.about-para {
+  padding: 0;
+  font-size: 1.1em;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -394,16 +358,23 @@ body {
   .cv {
     padding: 0;
   }
-  .contact-left {
-    display: none;
-  }
-  .contact-right {
-    display: initial;
-  }
-
   .contact-email,
   .contact-mobile {
     text-align: center;
+  }
+  .icons {
+    height: 60px;
+  }
+  .iconWithText {
+    margin: 10px 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .icons {
+    height: 45px;
+  }
+  .iconWithText {
+    margin: 10px 15px;
   }
 }
 
@@ -411,7 +382,6 @@ body {
 .portfolio {
   width: 80%;
   margin: 0 auto;
-  padding: 50px 0;
 }
 
 .image-laptop {
@@ -447,7 +417,7 @@ a {
   padding: 10px 0;
 }
 .portfolio-title {
-  text-align: center;
+  text-align: left;
   padding-bottom: 20px;
 }
 
@@ -482,12 +452,6 @@ hr {
   color: white;
 }
 
-/* .contact-container {
-  text-align: center;
-  margin: 0 auto;
-  padding-bottom: 100px;
-} */
-
 @media only screen and (max-width: 650px) {
   .contact-title {
     font-size: 1.5em;
@@ -505,10 +469,3 @@ hr {
 .image-link {
   color: white;
 }
-
-/* @media only screen and (max-width: 500px) {
-  .contact-email,
-  .contact-mobile {
-    font-size: 0.8em;
-  }
-} */
